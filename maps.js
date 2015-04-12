@@ -63,6 +63,147 @@ function initialize() {
   // The custom USGSOverlay object contains the USGS image,
   // the bounds of the image, and a reference to the map.
   overlay = new USGSOverlay(bounds, srcImage, map);
+
+  // Little 5 Points beacon
+  var l5p = new google.maps.Marker({
+       position: new google.maps.LatLng(33.766324, -84.349422),
+       map: map,
+       title: 'Little Five Points.'
+   });
+
+  // Setup the different icons and shadows
+      var iconURLPrefix = 'http://maps.google.com/mapfiles/ms/icons/';
+      
+      var icons = [
+        iconURLPrefix + 'blue-dot.png', //0-15
+        iconURLPrefix + 'green-dot.png', //15-30
+        iconURLPrefix + 'yellow-dot.png', //30-60
+        iconURLPrefix + 'orange-dot.png', // 60-90
+        iconURLPrefix + 'red-dot.png' //90+
+      ]
+
+      var iconsLength = icons.length;
+
+      // locations
+      // travel time is dictacted by leaving at 5:00 PM, time dictated from the time it takes to get there (starting from 5:00 PM, so waiting for the bus factors in), least walking, favoring bus and subway. Time is expressed as an integer of the minutes it takes to get there.
+      // Scenario: You get out of work at 5:00 PM. It is raining so you want to take the route that involves the least walking.
+      // Things like travel time matter—neighborhoods with bus service that is more intermittent will affect travel times and how long people have to wait
+
+      var locations = [
+        {
+          coords: [33.769353, -84.420040],
+          neighborhood: 'Bankhead',
+          time: 83
+        },
+        {
+          coords: [33.767462, -84.415963],
+          neighborhood: 'Bankhead',
+          time: 53
+        },
+        {
+          coords: [33.767391, -84.410384],
+          neighborhood: 'Bankhead',
+          time: 53
+        },
+        {
+          coords: [33.767109, -84.420096],
+          neighborhood: 'Bankhead',
+          time: 95
+        },
+        {
+          coords: [33.772772, -84.428108],
+          neighborhood: 'Bankhead',
+          time: 43
+        },
+        {
+          coords: [33.775661, -84.423988],
+          neighborhood: 'Bankhead',
+          time: 77
+        },
+        {
+          coords: [33.780924, -84.409209],
+          neighborhood: 'Howell Mill',
+          time: 53
+        },
+        {
+          coords: [33.784491, -84.412428],
+          neighborhood: 'Howell Mill',
+          time: 53
+        },
+        {
+          coords: [33.778320, -84.408351],
+          neighborhood: 'Howell Mill',
+          time: 73
+        },
+        {
+          coords: [33.766637, -84.374663],
+          neighborhood: 'Old Fourth Ward',
+          time: 31
+        },
+        {
+          coords: [33.767386, -84.378010],
+          neighborhood: 'Old Fourth Ward',
+          time: 44
+        },
+        {
+          coords: [33.769027, -84.369126],
+          neighborhood: 'Old Fourth Ward',
+          time: 23
+        },
+        {
+          coords: [33.764675, -84.365178],
+          neighborhood: 'Old Fourth Ward',
+          time: 53
+        },
+        {
+          coords: [33.734951, -84.344879],
+          neighborhood: 'East Atlanta',
+          time: 48
+        },
+        {
+          coords: [33.734095, -84.335524],
+          neighborhood: 'East Atlanta',
+          time: 43
+        },
+        {
+          coords: [33.737235, -84.337584],
+          neighborhood: 'East Atlanta',
+          time: 43
+        },
+        {
+          coords: [33.733024, -84.330717],
+          neighborhood: 'East Atlanta',
+          time: 91
+        },
+        {
+          coords: [33.729669, -84.337755],
+          neighborhood: 'East Atlanta',
+          time: 31
+        }
+      ];
+
+      for (var i = 0; i < locations.length; i++) {
+          var origin = locations[i];
+          var myLatLng = new google.maps.LatLng(origin.coords[0], origin.coords[1]);
+          var iconNum;
+          if (origin.time < 15) {
+            iconNum = 0; //blue
+          } else if (origin.time < 30) {
+            iconNum = 1; //green
+          } else if (origin.time < 60) {
+            iconNum = 2; //yellow
+          } else if (origin.time < 90) {
+            iconNum = 3; //orange
+          } else {
+            iconNum = 4; //red
+          }
+          var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              icon: icons[iconNum],
+              title: origin.neighborhood + ": " + origin.time + " min away"
+          });
+        }
 }
 // [END region_initialization]
 
