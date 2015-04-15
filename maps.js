@@ -217,6 +217,116 @@ function initialize() {
           coords: [33.892579, -84.43147],
           neighborhood: 'Peoplesville',
           time:51
+        },
+        {
+          coords: [33.788659, -84.332884],
+          neighborhood: 'Druid Hills',
+          time: 22
+        },
+        {
+          coords: [33.790371, -84.348849],
+          neighborhood: 'Druid Hills',
+          time: 49
+        },
+        {
+          coords: [33.792012, -84.333914],
+          neighborhood: 'Druid Hills',
+          time: 24
+        },
+        {
+          coords: [33.781383, -84.323872],
+          neighborhood: 'Druid Hills',
+          time: 39
+        },
+        {
+          coords: [33.779956, -84.357861],
+          neighborhood: 'Virginia Highlands',
+          time: 46
+        },
+        {
+          coords: [33.782952, -84.350651],
+          neighborhood: 'Virginia Highlands',
+          time: 45
+        },
+        {
+          coords: [33.784593, -84.348334],
+          neighborhood: 'Virginia Highlands',
+          time: 23
+        },
+        {
+          coords: [33.787732, -84.361466],
+          neighborhood: 'Virginia Highlands',
+          time: 50
+        },
+        {
+          coords: [33.783238, -84.316405],
+          neighborhood: 'Decatur',
+          time: 41
+        },
+        {
+          coords: [33.776246, -84.306363],
+          neighborhood: 'Decatur',
+          time: 49
+        },
+        {
+          coords: [33.774463, -84.295806],
+          neighborhood: 'Decatur',
+          time: 30
+        },
+        {
+          coords: [33.779082, -84.284154],
+          neighborhood: 'Decatur',
+          time: 41
+        },
+        {
+          coords: [33.762064, -84.285815],
+          neighborhood: 'Belvedere Park',
+          time: 60
+        },
+        {
+          coords: [33.756106, -84.279291],
+          neighborhood: 'Belvedere Park',
+          time: 52
+        },
+        {
+          coords: [33.749897, -84.280708],
+          neighborhood: 'Belvedere Park',
+          time: 61
+        },
+        {
+          coords: [33.753108, -84.289977],
+          neighborhood: 'Belvedere Park',
+          time: 48
+        },
+        {
+          coords: [33.754604, -84.339383],
+          neighborhood: 'Edgewood',
+          time: 43
+        },
+        {
+          coords: [33.755603, -84.343932],
+          neighborhood: 'Edgewood',
+          time: 32
+        },
+        {
+          coords: [33.750108, -84.343760],
+          neighborhood: 'Edgewood',
+          time: 48
+        },
+        {
+          coords: [33.752321, -84.330371],
+          neighborhood: 'Edgewood',
+          time: 45
+        },
+        {
+          coords: [33.756317, -84.325736],
+          neighborhood: 'Edgewood',
+          time: 50
+        },
+        {
+          coords: [33.757530, -84.315093],
+          neighborhood: 'Edgewood',
+          time: 52
         }
       ];
 
