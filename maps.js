@@ -53,7 +53,7 @@ function initialize() {
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('map_style', styledMap);
   map.setMapTypeId('map_style');
-  var swBound = new google.maps.LatLng(33.843933, -84.542198);
+  var swBound = new google.maps.LatLng(33.879933, -84.542198);
   var neBound = new google.maps.LatLng(33.962585, -84.260674);
   var bounds = new google.maps.LatLngBounds(swBound, neBound);
 
@@ -70,6 +70,8 @@ function initialize() {
        map: map,
        title: 'Little Five Points.'
    });
+
+
 
   // Setup the different icons and shadows
       var iconURLPrefix = 'http://maps.google.com/mapfiles/ms/icons/';
@@ -179,6 +181,31 @@ function initialize() {
           coords: [33.729669, -84.337755],
           neighborhood: 'East Atlanta',
           time: 31
+        },
+        {
+          coords: [33.860391, -84.464688],
+          neighborhood: 'Vinings',
+          time: 96
+        },
+        {
+          coords: [33.865490, -84.471134],
+          neighborhood: 'Vinings',
+          time: 93
+        },
+        {
+          coords: [33.866652, -84.468319],
+          neighborhood: 'Vinings',
+          time: 94
+        },
+        {
+          coords: [33.867689, -84.464518],
+          neighborhood: 'Vinings',
+          time: 82
+        },
+        {
+          coords: [33.872591, -84.474054],
+          neighborhood: 'Vinings',
+          time: 81
         }
       ];
 
@@ -242,7 +269,7 @@ USGSOverlay.prototype.onAdd = function() {
   var img = document.createElement('img');
   img.src = this.image_;
   img.style.width = '100%';
-  img.style.height = '100%';
+  img.style.height = '400%';
   img.style.position = 'absolute';
   div.appendChild(img);
 
