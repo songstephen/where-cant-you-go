@@ -58,7 +58,8 @@ function initialize() {
   var bounds = new google.maps.LatLngBounds(swBound, neBound);
 
   // It's the MARTA map.
-  var srcImage = 'http://i.imgur.com/XxhdXKl.png';
+  //http://i.imgur.com/XxhdXKl.png
+  var srcImage = '';
 
   // The custom USGSOverlay object contains the USGS image,
   // the bounds of the image, and a reference to the map.
@@ -198,14 +199,24 @@ function initialize() {
           time: 94
         },
         {
-          coords: [33.867689, -84.464518],
-          neighborhood: 'Vinings',
-          time: 82
+          coords: [33.884698, -84.458658],
+          neighborhood: 'Cumberland',
+          time: 67
         },
         {
-          coords: [33.872591, -84.474054],
-          neighborhood: 'Vinings',
-          time: 81
+          coords: [33.892579, -84.43147],
+          neighborhood: 'Cumberland',
+          time:148
+        },
+        {
+          coords: [33.892579, -84.43147],
+          neighborhood: 'Peoplesville',
+          time:51
+        },
+        {
+          coords: [33.892579, -84.43147],
+          neighborhood: 'Peoplesville',
+          time:51
         }
       ];
 
