@@ -597,7 +597,257 @@ function initialize() {
           coords: [33.658004, -84.370559],
           neighborhood: 'Hapeville',
           time: 84
-        }
+        },
+        {
+          coords: [33.758498, -84.433376],
+          neighborhood: 'Dixie Hills',
+          time: 64
+        },
+        {
+          coords: [33.755073, -84.441259],
+          neighborhood: 'Dixie Hills',
+          time: 75
+        },
+                {
+          coords: [33.757464, -84.438213],
+          neighborhood: 'Dixie Hills',
+          time: 92
+        },
+        {
+          coords: [33.755329, -84.44125],
+          neighborhood: 'Dixie Hills',
+          time: 76
+        },
+        {
+          coords: [33.751700, -84.441244],
+          neighborhood: 'Dixie Hills',
+          time: 71
+        },
+        {
+          coords: [33.757321, -84.443632],
+          neighborhood: 'Dixie Hills',
+          time: 71
+        },
+        {
+          coords: [33.767042, -84.447222],
+          neighborhood: 'Dixie Hills',
+          time: 69
+        },
+        {
+          coords: [33.765380, -84.463862],
+          neighborhood: 'Dixie Hills',
+          time: 89
+        },
+        {
+          coords: [33.761751, -84.455671],
+          neighborhood: 'Dixie Hills',
+          time: 53
+        },
+        {
+          coords: [33.752807, -84.456121],
+          neighborhood: 'Dixie Hills',
+          time: 58
+        },
+        {
+          coords: [33.770058, -84.469274],
+          neighborhood: 'Carey Park',
+          time: 60
+        },
+        {
+          coords: [33.766062, -84.467901],
+          neighborhood: 'Carey Park',
+          time: 64
+        },
+        {
+          coords: [33.760996, -84.470626],
+          neighborhood: 'Carey Park',
+          time: 59
+        },
+                {
+          coords: [33.754466, -84.461957],
+          neighborhood: 'Carey Park',
+          time: 61
+        },
+        {
+          coords: [33.759676, -84.466699],
+          neighborhood: 'Carey Park',
+          time: 67
+        },
+        {
+          coords: [33.765634, -84.476634],
+          neighborhood: 'Carey Park',
+          time: 72
+        },
+                {
+          coords: [33.764546, -84.478759],
+          neighborhood: 'Carey Park',
+          time: 67
+        },
+                {
+          coords: [33.772371, -84.49352],
+          neighborhood: 'Carey Park',
+          time: 80
+        },
+        {
+          coords: [33.777782, -84.483997],
+          neighborhood: 'Carey Park',
+          time: 65
+        },
+        {
+          coords: [33.771484, -84.484111],
+          neighborhood: 'Carey Park',
+          time: 72
+        },
+                {
+          coords: [33.784972, -84.427035],
+          neighborhood: 'Blandtown',
+          time: 62
+        },
+                {
+          coords: [33.786464, -84.437648],
+          neighborhood: 'Rockdale',
+          time: 68
+        },
+                {
+          coords: [33.784947, -84.439391],
+          neighborhood: 'Rockdale',
+          time: 70
+        },
+                {
+          coords: [33.796917, -84.451729],
+          neighborhood: 'Northwestern',
+          time: 69
+        },
+                {
+          coords: [33.788635, -84.454677],
+          neighborhood: 'Rockdale',
+          time: 81
+        },
+                {
+          coords: [33.793904, -84.425541],
+          neighborhood: 'Berkeley Park',
+          time: 109
+        },
+                {
+          coords: [33.787758, -84.428015],
+          neighborhood: 'Westside',
+          time: 88
+        },
+                {
+          coords: [33.802191, -84.442505],
+          neighborhood: 'Northwestern',
+          time: 100
+        },
+                {
+          coords: [33.802497, -84.457892],
+          neighborhood: 'Northwestern',
+          time: 70
+        },
+                {
+          coords: [33.794497, -84.461238],
+          neighborhood: 'Northwestern',
+          time: 83
+        },
+                {
+          coords: [33.809683, -84.45367],
+          neighborhood: 'Northwestern',
+          time: 71
+        },
+                {
+          coords: [33.799928, -84.481281],
+          neighborhood: 'Northwestern',
+          time: 140
+        },
+                {
+          coords: [33.807831, -84.482639],
+          neighborhood: 'McDonough',
+          time: 88
+        },
+                {
+          coords: [33.820091, -84.490459],
+          neighborhood: 'McDonough',
+          time: 124
+        },
+                {
+          coords: [33.809315, -84.424062],
+          neighborhood: 'Underwood Hills',
+          time: 86
+        },
+                {
+          coords: [33.818287, -84.438514],
+          neighborhood: 'Underwood Hills',
+          time: 94
+        },
+                {
+          coords: [33.833783, -84.440809],
+          neighborhood: 'Paces',
+          time: 135
+        },
+                {
+          coords: [33.838662, -84.456085],
+          neighborhood: 'Paces',
+          time: 137
+        },
+                {
+          coords: [33.840583, -84.46605],
+          neighborhood: 'McDonough',
+          time: 125
+        },
+                {
+          coords: [33.844581, -84.47097],
+          neighborhood: 'McDonough',
+          time: 118
+        },
+                {
+          coords: [33.851905, -84.479246],
+          neighborhood: 'McDonough',
+          time: 137
+        },
+                {
+          coords: [33.859066, -84.440265],
+          neighborhood: 'Paces',
+          time: 110
+        },
+                {
+          coords: [33.876323, -84.448108],
+          neighborhood: 'Paces',
+          time: 78
+        },
+                {
+          coords: [33.827891, -84.46108],
+          neighborhood: 'McDonough',
+          time: 110
+        },
+                {
+          coords: [33.821846, -84.457113],
+          neighborhood: 'McDonough',
+          time: 91
+        },
+                {
+          coords: [33.780077, -84.470418],
+          neighborhood: 'Carey Park',
+          time: 64
+        },
+                {
+          coords: [33.786668, -84.484211],
+          neighborhood: 'Carey Park',
+          time: 68
+        },
+                {
+          coords: [33.771313, -84.433894],
+          neighborhood: 'Carey Park',
+          time: 46
+        },
+                {
+          coords: [33.801467, -84.476286],
+          neighborhood: 'Carey Park',
+          time: 139
+        },
+                {
+          coords: [33.789772, -84.449209],
+          neighborhood: 'Northwestern',
+          time: 74
+        },
       ];
 
       for (var i = 0; i < locations.length; i++) {
