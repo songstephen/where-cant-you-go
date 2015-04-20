@@ -848,6 +848,228 @@ function initialize() {
           neighborhood: 'Northwestern',
           time: 74
         },
+        {
+          coords: [33.775534, -84.368456],
+          neighborhood: 'Midtown',
+          time: 36
+        },
+        {
+          coords: [33.781063, -84.374207],
+          neighborhood: 'Midtown',
+          time: 59
+        },
+        {
+          coords: [33.775498, -84.379700],
+          neighborhood: 'Midtown',
+          time: 40
+        },
+        {
+          coords: [33.775998, -84.387082],
+          neighborhood: 'Midtown',
+          time: 55
+        },
+        {
+          coords: [33.785373, -84.381227],
+          neighborhood: 'Midtown',
+          time: 63
+        },
+        {
+          coords: [33.793152, -84.383561],
+          neighborhood: 'Midtown',
+          time: 52
+        },
+        {
+          coords: [33.793080, -84.372660],
+          neighborhood: 'Midtown',
+          time: 68
+        },
+        {
+          coords: [33.805134, -84.373218],
+          neighborhood: 'Midtown',
+          time: 77
+        },
+        {
+          coords: [33.802674, -84.380814
+],
+          neighborhood: 'Midtown',
+          time: 66
+        },
+        {
+          coords: [33.804021, -84.323369],
+          neighborhood: 'Druid Hills',
+          time: 40
+        },
+        {
+          coords: [33.806418, -84.366781],
+          neighborhood: 'Druid Hills',
+          time: 77
+        },
+        {
+          coords: [33.795256, -84.361674],
+          neighborhood: 'Druid Hills',
+          time: 53
+        },
+        {
+          coords: [33.794257, -84.350473],
+          neighborhood: 'Druid Hills',
+          time: 46
+        },
+        {
+          coords: [33.800418, -84.345874],
+          neighborhood: 'Druid Hills',
+          time: 49
+        },
+        {
+          coords: [33.803485, -84.360723],
+          neighborhood: 'Druid Hills',
+          time: 83
+        },
+        {
+          coords: [33.808763, -84.350895],
+          neighborhood: 'Druid Hills',
+          time: 79
+        },
+        {
+          coords: [33.789166, -84.338385],
+          neighborhood: 'Druid Hills',
+          time: 20
+        },
+        {
+          coords: [33.780445, -84.336561],
+          neighborhood: 'Druid Hills',
+          time: 24
+        },
+        {
+          coords: [33.776444, -84.328340],
+          neighborhood: 'Druid Hills',
+          time: 44
+        },
+        {
+          coords: [33.820095, -84.351257],
+          neighborhood: 'North Druid Hills',
+          time: 51
+        },
+        {
+          coords: [33.825799, -84.340270],
+          neighborhood: 'North Druid Hills',
+          time: 66
+        },
+        {
+          coords: [33.827296, -84.330915],
+          neighborhood: 'North Druid Hills',
+          time: 65
+        },
+        {
+          coords: [33.820166, -84.333060],
+          neighborhood: 'North Druid Hills',
+          time: 57
+        },
+        {
+          coords: [33.816101, -84.343532],
+          neighborhood: 'North Druid Hills',
+          time: 47
+        },
+        {
+          coords: [33.809683, -84.341300],
+          neighborhood: 'North Druid Hills',
+          time: 46
+        },
+        {
+          coords: [33.810967, -84.328683],
+          neighborhood: 'North Druid Hills',
+          time: 49
+        },
+        {
+          coords: [33.807187, -84.314607],
+          neighborhood: 'North Druid Hills',
+          time: 63
+        },
+        {
+          coords: [33.819933, -84.308165],
+          neighborhood: 'North Druid Hills',
+          time: 62
+        },
+        {
+          coords: [33.824033, -84.320224],
+          neighborhood: 'North Druid Hills',
+          time: 74
+        },
+        {
+          coords: [33.831280, -84.327231],
+          neighborhood: 'North Druid Hills',
+          time: 115
+        },
+        {
+          coords: [33.823708, -84.308975],
+          neighborhood: 'North Druid Hills',
+          time: 66
+        },
+        {
+          coords: [33.817148, -84.302452],
+          neighborhood: 'North Decatur',
+          time: 92
+        },
+        {
+          coords: [33.811657, -84.299533],
+          neighborhood: 'North Decatur',
+          time: 92
+        },
+        {
+          coords: [33.809874, -84.305284],
+          neighborhood: 'North Decatur',
+          time: 63
+        },
+        {
+          coords: [33.803527, -84.300134],
+          neighborhood: 'North Decatur',
+          time: 65
+        },
+        {
+          coords: [33.798534, -84.297302],
+          neighborhood: 'North Decatur',
+          time: 78
+        },
+        {
+          coords: [33.792257, -84.300392],
+          neighborhood: 'North Decatur',
+          time: 70
+        },
+        {
+          coords: [33.808942, -84.299937],
+          neighborhood: 'North Decatur',
+          time: 73
+        },
+        {
+          coords: [33.804163, -84.292985],
+          neighborhood: 'North Decatur',
+          time: 82
+        },
+        {
+          coords: [33.812080, -84.280539],
+          neighborhood: 'North Decatur',
+          time: 96
+        },
+        {
+          coords: [33.810297, -84.289122],
+          neighborhood: 'North Decatur',
+          time: 93
+        },
+        {
+          coords: [33.803807, -84.285046],
+          neighborhood: 'North Decatur',
+          time: 75
+        },
+        {
+          coords: [33.797994, -84.286204],
+          neighborhood: 'North Decatur',
+          time: 82
+        },
+        {
+          coords: [],
+          neighborhood: 'North Decatur',
+          time: 92
+        },
+
       ];
 
       for (var i = 0; i < locations.length; i++) {
