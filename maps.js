@@ -41,8 +41,8 @@ function initialize() {
   // Create a map object, and include the MapTypeId to add
   // to the map type control.
   var mapOptions = {
-    zoom: 10,
-    center: { lat: 33.886021, lng: -84.364357},
+    zoom: 12,
+    center: { lat: 33.766324, lng: -84.349422},
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }
@@ -75,17 +75,6 @@ function initialize() {
 
 
   // Setup the different icons and shadows
-      var iconURLPrefix = 'http://maps.google.com/mapfiles/ms/icons/';
-      
-      var icons = [
-        iconURLPrefix + 'blue-dot.png', //0-15
-        iconURLPrefix + 'green-dot.png', //15-30
-        iconURLPrefix + 'yellow-dot.png', //30-60
-        iconURLPrefix + 'orange-dot.png', // 60-90
-        iconURLPrefix + 'red-dot.png' //90+
-      ]
-
-      var iconsLength = icons.length;
 
       // locations
       // travel time is dictacted by leaving at 5:00 PM, time dictated from the time it takes to get there (starting from 5:00 PM, so waiting for the bus factors in), least walking, favoring bus and subway. Time is expressed as an integer of the minutes it takes to get there.
@@ -1069,28 +1058,20 @@ function initialize() {
           neighborhood: 'North Decatur',
           time: 92
         },
-
       ];
 
+      var iconURLPrefix = 'pins/pins-';
       for (var i = 0; i < locations.length; i++) {
           var origin = locations[i];
           var myLatLng = new google.maps.LatLng(origin.coords[0], origin.coords[1]);
-          var iconNum;
-          if (origin.time < 15) {
-            iconNum = 0; //blue
-          } else if (origin.time < 30) {
-            iconNum = 1; //green
-          } else if (origin.time < 60) {
-            iconNum = 2; //yellow
-          } else if (origin.time < 90) {
-            iconNum = 3; //orange
-          } else {
-            iconNum = 4; //red
+          var bucket = Math.floor(origin.time / 5) - 2;
+          if (bucket < 10) {
+            bucket = '0' + bucket;
           }
           var marker = new google.maps.Marker({
               position: myLatLng,
               map: map,
-              icon: icons[iconNum],
+              icon: iconURLPrefix + bucket + '.png',
               title: origin.neighborhood + ": " + origin.time + " min away"
           });
         }
