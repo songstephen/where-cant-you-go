@@ -823,6 +823,11 @@ function initialize() {
           neighborhood: 'McDonough',
           time: 91
         },
+        {
+          coords: [33.827785, -84.473910],
+          neighborhood: 'McDonough',
+          time: 110
+        },
                 {
           coords: [33.780077, -84.470418],
           neighborhood: 'Carey Park',
