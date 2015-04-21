@@ -1272,12 +1272,232 @@ function initialize() {
           neighborhood: 'Piedmont',
           time: 71
         },
+        {
+          coords: [33.796265, -84.411897],
+          neighborhood: 'Berkeley Park',
+          time: 66
+        },
+              {
+          coords: [33.797168, -84.399579],
+          neighborhood: 'Loring Heights',
+          time: 63
+        },
+        {
+          coords: [33.791105, -84.396919],
+          neighborhood: 'Atlantic Station',
+          time: 71
+        },
+        {
+          coords: [33.774073, -84.396383],
+          neighborhood: 'Georgia Tech',
+          time: 68
+        },
+        {
+          coords: [33.836776, -84.390252],
+          neighborhood: 'Peachtree Heights West',
+          time: 83
+        },
+        {
+          coords: [33.833247, -84.393385],
+          neighborhood: 'Peachtree Heights West',
+          time: 80
+        },     
+        {
+          coords: [33.829626, -84.421793],
+          neighborhood: 'Howell Mill',
+          time: 84
+        },
+        {
+          coords: [33.839215, -84.406129],
+          neighborhood: 'Arden',
+          time: 85
+        },
+        {
+          coords: [33.838038, -84.377333],
+          neighborhood: 'Buckhead',
+          time: 70
+        },
+        {
+          coords: [33.841427, -84.427430],
+          neighborhood: 'Howell Mill',
+          time: 84
+        },
+        {
+          coords: [33.840699, -84.387402],
+          neighborhood: 'Buckhead',
+          time: 87
+        },
+              {
+          coords: [33.847971, -84.372210],
+          neighborhood: 'Buckhead',
+          time: 78
+        },
+        {
+          coords: [33.836244, -84.413323],
+          neighborhood: 'Arden',
+          time: 87
+        },
+        {
+          coords: [33.829453, -84.410165],
+          neighborhood: 'Arden',
+          time: 76
+        },
+        {
+          coords: [33.847704, -84.381670],
+          neighborhood: 'Buckhead',
+          time: 91
+        },
+        {
+          coords: [33.843355, -84.387077],
+          neighborhood: 'Buckhead',
+          time: 81
+        },     
+        {
+          coords: [33.849201, -84.401926],
+          neighborhood: 'Tuxedo Park',
+          time: 102
+        },
+        {
+          coords: [33.847332, -84.412701],
+          neighborhood: 'Tuxedo Park',
+          time: 92
+        },
+        {
+          coords: [33.856822, -84.371810],
+          neighborhood: 'Buckhead',
+          time: 96
+        },
+        {
+          coords: [33.853115, -84.391937],
+          neighborhood: 'Buckhead',
+          time: 99
+        },
+        {
+          coords: [33.861481, -84.424849],
+          neighborhood: 'Northside',
+          time: 127
+        },
+        {
+          coords: [33.861410, -84.409485],
+          neighborhood: 'Northside',
+          time: 109
+        },
+        {
+          coords: [33.874604, -84.414720],
+          neighborhood: 'Mt. Paran',
+          time: 119
+        },
+        {
+          coords: [33.872537, -84.398498],
+          neighborhood: 'Chastain Park',
+          time: 118
+        },
+        {
+          coords: [33.860973, -84.388624],
+          neighborhood: 'Chastain Park',
+          time: 91
+        },
+        {
+          coords: [33.862612, -84.397637],
+          neighborhood: 'Chastain Park',
+          time: 104
+        },     
+        {
+          coords: [33.870901, -84.437877],
+          neighborhood: 'Whitewater Creek',
+          time: 117
+        },
+        {
+          coords: [33.878717, -84.437382],
+          neighborhood: 'Whitewater Creek',
+          time: 132
+        },
+        {
+          coords: [33.874436, -84.427282],
+          neighborhood: 'Mt. Paran',
+          time: 132
+        },
+        {
+          coords: [33.897042, -84.445613],
+          neighborhood: 'Cumberland',
+          time: 104
+        },     
+        {
+          coords: [33.896635, -84.428175],
+          neighborhood: 'Sandy Springs',
+          time: 137
+        },
+        {
+          coords: [33.897633, -84.395560],
+          neighborhood: 'Sandy Springs',
+          time: 113
+        },
+        {
+          coords: [33.908461, -84.361914],
+          neighborhood: 'Sandy Springs',
+          time: 83
+        },
+        {
+          coords: [33.891733, -84.392340],
+          neighborhood: 'Sandy Springs',
+          time: 113
+        },
+        {
+          coords: [33.903737, -84.409492],
+          neighborhood: 'Sandy Springs',
+          time: 137
+        },     
+        {
+          coords: [33.911715, -84.387090],
+          neighborhood: 'Sandy Springs',
+          time: 83
+        },
+        {
+          coords: [33.895473, -84.411209],
+          neighborhood: 'Sandy Springs',
+          time: 137
+        },
+        {
+          coords: [33.896399, -84.370353],
+          neighborhood: 'Sandy Springs',
+          time: 83
+        },
+        {
+          coords: [33.888776, -84.379366],
+          neighborhood: 'Sandy Springs',
+          time: 83
+        },
+        {
+          coords: [33.901742, -84.366749],
+          neighborhood: 'Sandy Springs',
+          time: 83
+        },     
+        {
+          coords: [33.871277, -84.373067],
+          neighborhood: 'Buckhead',
+          time: 83
+        },
+        {
+          coords: [33.855436, -84.377532],
+          neighborhood: 'Buckhead',
+          time: 83
+        },
+        {
+          coords: [33.883585, -84.411578],
+          neighborhood: 'Sandy Springs',
+          time: 83
+        },
         /*{
           coords: [],
           neighborhood: '',
           time: 
         },
-              {
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     
+        {
           coords: [],
           neighborhood: '',
           time: 
@@ -1326,8 +1546,8 @@ function initialize() {
           coords: [],
           neighborhood: '',
           time: 
-        },
-              {
+        },     
+        {
           coords: [],
           neighborhood: '',
           time: 
@@ -1376,7 +1596,107 @@ function initialize() {
           coords: [],
           neighborhood: '',
           time: 
-        },*/                          
+        },     
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     */                          
       ];
 
       var iconURLPrefix = 'pins/pins-';
@@ -1392,7 +1712,6 @@ function initialize() {
               position: myLatLng,
               map: map,
               icon: iconURLPrefix + bucket + '.png',
-              animation : google.maps.Animation.DROP,
               title: origin.neighborhood + ": " + origin.time + " min away",
               infoWindowIndex : i
           });
