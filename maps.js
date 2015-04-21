@@ -873,8 +873,7 @@ function initialize() {
           time: 77
         },
         {
-          coords: [33.802674, -84.380814
-],
+          coords: [33.802674, -84.380814],
           neighborhood: 'Midtown',
           time: 66
         },
@@ -1056,6 +1055,7 @@ function initialize() {
       ];
 
       var iconURLPrefix = 'pins/pins-';
+      infoWindows = Array();
       for (var i = 0; i < locations.length; i++) {
           var origin = locations[i];
           var myLatLng = new google.maps.LatLng(origin.coords[0], origin.coords[1]);
@@ -1067,8 +1067,25 @@ function initialize() {
               position: myLatLng,
               map: map,
               icon: iconURLPrefix + bucket + '.png',
-              title: origin.neighborhood + ": " + origin.time + " min away"
+              animation : google.maps.Animation.DROP,
+              title: origin.neighborhood + ": " + origin.time + " min away",
+              infoWindowIndex : i
           });
+
+          var content = marker.title;
+
+          var infoWindow = new google.maps.InfoWindow({
+            content : content
+          });
+
+          google.maps.event.addListener(marker, 'click', function(event)
+            {
+                infoWindows[this.infoWindowIndex].open(map, this);
+            }
+          );
+
+          infoWindows.push(infoWindow);
+
         }
 }
 // [END region_initialization]
