@@ -1048,10 +1048,335 @@ function initialize() {
           time: 82
         },
         {
-          coords: [],
-          neighborhood: 'North Decatur',
-          time: 92
+          coords: [33.748178, -84.414098],
+          neighborhood: 'Morehouse',
+          time: 53
         },
+        {
+          coords: [33.748811, -84.414253],
+          neighborhood: 'Morehouse',
+          time: 52
+        },
+        {
+          coords: [33.743458, -84.412193],
+          neighborhood: 'Morehouse',
+          time: 56
+        },
+        {
+          coords: [33.751880, -84.405413],
+          neighborhood: 'Clark Atlanta',
+          time: 65
+        },
+        {
+          coords: [33.755591, -84.403868],
+          neighborhood: 'Georgia Dome',
+          time: 31
+        },
+        {
+          coords: [33.750517, -84.425560],
+          neighborhood: 'Just Us',
+          time: 55
+        },
+        {
+          coords: [33.757696, -84.423351],
+          neighborhood: 'Hunter Hills',
+          time: 37
+        },
+        {
+          coords: [33.754484, -84.436827],
+          neighborhood: 'Hunter Hills',
+          time: 74
+        },
+        {
+          coords: [33.756554, -84.446869],
+          neighborhood: 'Dixie Hills',
+          time: 48
+        },
+        {
+          coords: [33.759979, -84.413910],
+          neighborhood: 'Hunter Hills',
+          time: 38
+        },
+        {
+          coords: [33.763511, -84.393997],
+          neighborhood: 'Centennial Olympic Park',
+          time: 75
+        },
+ {
+          coords: [33.757731, -84.397860],
+          neighborhood: 'Georgia Dome',
+          time: 29
+        },
+        {
+          coords: [33.748026, -84.394426],
+          neighborhood: 'South Downtown',
+          time: 36
+        },
+        {
+          coords: [33.754163, -84.389920],
+          neighborhood: 'Five Points',
+          time: 49
+        },
+        {
+          coords: [33.751767, -84.385180],
+          neighborhood: 'Georgia State',
+          time: 54
+        },
+        {
+          coords: [33.750667, -84.382925],
+          neighborhood: 'Georgia State',
+          time: 55
+        },     
+        {
+          coords: [33.818656, -84.477555],
+          neighborhood: 'Chattahoochee River',
+          time: 101
+        },
+        {
+          coords: [33.811382, -84.470688],
+          neighborhood: 'Bolton',
+          time: 83
+        },
+        {
+          coords: [33.779712, -84.459082],
+          neighborhood: 'Central Hill Park',
+          time: 57
+        },
+        {
+          coords: [33.779819, -84.446036],
+          neighborhood: 'Rockdale',
+          time: 58
+        },
+        {
+          coords: [33.774147, -84.454898],
+          neighborhood: 'Rockdale',
+          time: 58
+        },     
+ {
+          coords: [33.791462, -84.472542],
+          neighborhood: 'Carey Park',
+          time: 82
+        },
+        {
+          coords: [33.787040, -84.469795],
+          neighborhood: 'Carey Park',
+          time: 82
+        },
+        {
+          coords: [33.851121, -84.443539],
+          neighborhood: 'Paces',
+          time: 129
+        },
+        {
+          coords: [33.839858, -84.445428],
+          neighborhood: 'Paces',
+          time: 131
+        },
+        {
+          coords: [33.847913, -84.453925],
+          neighborhood: 'Paces',
+          time: 125
+        },     
+        {
+          coords: [33.807093, -84.394187],
+          neighborhood: 'Piedmont Heights',
+          time: 56
+        },
+        {
+          coords: [33.810367, -84.408125],
+          neighborhood: 'Howell Mill',
+          time: 75
+        },
+        {
+          coords: [33.815495, -84.379839],
+          neighborhood: 'Piedmont Heights',
+          time: 76
+        },
+        {
+          coords: [33.822822, -84.367147],
+          neighborhood: 'Lindbergh',
+          time: 55
+        },
+        {
+          coords: [33.822680, -84.379249],
+          neighborhood: 'Lindbergh',
+          time: 73
+        },     
+        {
+          coords: [33.828740, -84.367491],
+          neighborhood: 'Lindbergh',
+          time: 70
+        },
+        {
+          coords: [33.830844, -84.396501],
+          neighborhood: 'Wyngate',
+          time: 91
+        },
+        {
+          coords: [33.827172, -84.403824],
+          neighborhood: 'Wyngate',
+          time: 83
+        },
+        {
+          coords: [33.821254, -84.409977],
+          neighborhood: 'Atlanta Memorial Park',
+          time: 99
+        },
+        {
+          coords: [33.818116, -84.412037],
+          neighborhood: 'Atlanta Memorial Park',
+          time: 75
+        },   
+        {
+          coords: [33.809773, -84.412895],
+          neighborhood: 'Howell Mill',
+          time: 70
+        },
+        {
+          coords: [33.824605, -84.402166],
+          neighborhood: 'Woodfield',
+          time: 104
+        },
+        {
+          coords: [33.823143, -84.409054],
+          neighborhood: 'Woodfield',
+          time: 96
+        },
+        {
+          coords: [33.821748, -84.393273],
+          neighborhood: 'Peachtree Battle Avenue',
+          time: 68
+        },
+        {
+          coords: [33.820006, -84.395965],
+          neighborhood: 'Peachtree Battle Avenue',
+          time: 74
+        },     
+        {
+          coords: [33.827243, -84.389613],
+          neighborhood: 'Wyngate',
+          time: 70
+        },
+        {
+          coords: [33.816369, -84.398304],
+          neighborhood: 'Peachtree Creek',
+          time: 80
+        },
+        {
+          coords: [33.809898, -84.388833],
+          neighborhood: 'Brookwood Valley',
+          time: 62
+        },
+        {
+          coords: [33.806514, -84.402103],
+          neighborhood: 'Piedmont',
+          time: 71
+        },
+        /*{
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+              {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+              {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },     
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },
+        {
+          coords: [],
+          neighborhood: '',
+          time: 
+        },*/                          
       ];
 
       var iconURLPrefix = 'pins/pins-';
