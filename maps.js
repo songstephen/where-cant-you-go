@@ -4,6 +4,10 @@ Google Maps Stuff
 
 */
 
+// Initialize the additional points for the map
+  var heatmap = new extrapoints();
+
+
 
 // Initialize the map and the custom overlay.
 
@@ -47,6 +51,8 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'),
     mapOptions);
 
+  var pin = new Audio('pins/pins-26.mp3');
+
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('map_style', styledMap);
   map.setMapTypeId('map_style');
@@ -61,6 +67,9 @@ function initialize() {
        map: map,
        title: 'Little Five Points.'
    });
+
+  heatmap.code = function() { pin.play(); }
+  heatmap.load();
 
 
 
