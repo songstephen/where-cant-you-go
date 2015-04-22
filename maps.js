@@ -804,7 +804,7 @@ function initialize() {
                 {
           coords: [33.827891, -84.46108],
           neighborhood: 'McDonough',
-          time: 110
+          time: 85
         },
                 {
           coords: [33.821846, -84.457113],
@@ -814,7 +814,7 @@ function initialize() {
         {
           coords: [33.827785, -84.473910],
           neighborhood: 'McDonough',
-          time: 110
+          time: 85
         },
                 {
           coords: [33.780077, -84.470418],
