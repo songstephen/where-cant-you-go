@@ -1,2 +1,3 @@
 # where-cant-you-go
-BASED NASSIM
+
+LMC 3705 Final Project
