@@ -1842,32 +1842,32 @@ function initialize() {
           neighborhood: 'Doraville',
           time: 66
         },
-        /*{
-          coords: [],
-          neighborhood: '',
-          time: 
+        {
+          coords: [33.876472, -84.262179],
+          neighborhood: 'Mercer University - Atlanta',
+          time: 94
         },
         {
-          coords: [],
-          neighborhood: '',
-          time: 
+          coords: [33.870435, -84.264483],
+          neighborhood: 'Mercer University - Atlanta',
+          time: 83
         },
         {
-          coords: [],
-          neighborhood: '',
-          time: 
+          coords: [33.854969, -84.254269],
+          neighborhood: 'Northlake',
+          time: 94
         },     
         {
-          coords: [],
-          neighborhood: '',
-          time: 
+          coords: [33.843349, -84.250793],
+          neighborhood: 'Northlake',
+          time: 94
         },
         {
-          coords: [],
-          neighborhood: '',
-          time: 
+          coords: [33.853507, -84.266886],
+          neighborhood: 'Northlake',
+          time: 94
         },
-        {
+        /*{
           coords: [],
           neighborhood: '',
           time: 
