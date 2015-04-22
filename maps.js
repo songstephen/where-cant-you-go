@@ -42,8 +42,8 @@ function initialize() {
   // Create a map object, and include the MapTypeId to add
   // to the map type control.
   var mapOptions = {
-    zoom: 12,
-    center: { lat: 33.766324, lng: -84.349422},
+    zoom: 11,
+    center: { lat: 33.778528, lng: -84.372865},
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }
