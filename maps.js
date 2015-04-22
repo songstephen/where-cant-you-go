@@ -1487,152 +1487,362 @@ function initialize() {
           neighborhood: 'Sandy Springs',
           time: 83
         },
+        {
+          coords: [33.825546, -84.356828],
+          neighborhood: 'Pine Hills',
+          time: 62
+        },
+        {
+          coords: [33.833745, -84.357343],
+          neighborhood: 'Pine Hills',
+          time: 83
+        },     
+        {
+          coords: [33.830238, -84.349513],
+          neighborhood: 'Pine Hills',
+          time: 77
+        },
+        {
+          coords: [33.837652, -84.345222],
+          neighborhood: 'Pine Hills',
+          time: 54
+        },
+        {
+          coords: [33.841687, -84.354820],
+          neighborhood: 'Pine Hills',
+          time: 53
+        },
+        {
+          coords: [33.845580, -84.364234],
+          neighborhood: 'Lenox',
+          time: 53 
+        },
+        {
+          coords: [33.848877, -84.352840],
+          neighborhood: 'Lenox',
+          time: 53
+        },     
+        {
+          coords: [33.854116, -84.358075],
+          neighborhood: 'Lenox',
+          time: 62
+        },
+        {
+          coords: [33.840126, -84.340243],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },
+        {
+          coords: [33.838849, -84.330893],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.845871, -84.339305],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },
+        {
+          coords: [33.842841, -84.345485],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },     
+        {
+          coords: [33.853890, -84.333125],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },
+        {
+          coords: [33.857882, -84.346600],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },
+        {
+          coords: [33.871708, -84.332438],
+          neighborhood: 'Brookhaven',
+          time: 66
+        },
+        {
+          coords: [33.884998, -84.340335],
+          neighborhood: 'Brookhaven',
+          time: 96
+        },
+        {
+          coords: [33.877160, -84.319220],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },     
+        {
+          coords: [33.862051, -84.326945],
+          neighborhood: 'Brookhaven',
+          time: 66
+        },
+        {
+          coords: [33.877793, -84.346681],
+          neighborhood: 'Brookhaven',
+          time: 81
+        },
+        {
+          coords: [33.897965, -84.337417],
+          neighborhood: 'Brookhaven',
+          time: 122
+        },
+        {
+          coords: [33.907226, -84.319049],
+          neighborhood: 'Brookhaven',
+          time: 96
+        },
+        {
+          coords: [33.864221, -84.337582],
+          neighborhood: 'Brookhaven',
+          time: 53
+        },     
+        {
+          coords: [33.874109, -84.329821],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.912511, -84.342953],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.874356, -84.311300],
+          neighborhood: 'Brookhaven',
+          time: 66
+        },
+        {
+          coords: [33.857505, -84.321943],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },
+        {
+          coords: [33.868168, -84.347769],
+          neighborhood: 'Brookhaven',
+          time: 66
+        },     
+        {
+          coords: [33.862556, -84.350687],
+          neighborhood: 'Brookhaven',
+          time: 66
+        },
+        {
+          coords: [33.903255, -84.312133],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.865455, -84.317498],
+          neighborhood: 'Brookhaven',
+          time: 85
+        },
+        {
+          coords: [33.872155, -84.314494],
+          neighborhood: 'Brookhaven',
+          time: 85
+        },
+        {
+          coords: [33.863228, -84.314283],
+          neighborhood: 'Brookhaven',
+          time: 74
+        },     
+        {
+          coords: [33.890063, -84.320159],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.902816, -84.319816],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.894338, -84.328742],
+          neighborhood: 'Brookhaven',
+          time: 122
+        },
+        {
+          coords: [33.887498, -84.329085],
+          neighborhood: 'Brookhaven',
+          time: 96
+        },
+        {
+          coords: [33.882225, -84.333549],
+          neighborhood: 'Brookhaven',
+          time: 96
+        },     
+        {
+          coords: [33.910852, -84.333177],
+          neighborhood: 'Brookhaven',
+          time: 83
+        },
+        {
+          coords: [33.900713, -84.357276],
+          neighborhood: 'Sandy Springs',
+          time: 104
+        },
+        {
+          coords: [33.890668, -84.357104],
+          neighborhood: 'Sandy Springs',
+          time: 122
+        },
+        {
+          coords: [33.880315, -84.362712],
+          neighborhood: 'Sandy Springs',
+          time: 143
+        },
+        {
+          coords: [33.880426, -84.361476],
+          neighborhood: 'Sandy Springs',
+          time: 113
+        },
+        {
+          coords: [33.888692, -84.353365],
+          neighborhood: 'Sandy Springs',
+          time: 122
+        },
+        {
+          coords: [33.910625, -84.355537],
+          neighborhood: 'Perimeter Center',
+          time: 62
+        },
+        {
+          coords: [33.914293, -84.349594],
+          neighborhood: 'Perimeter Center',
+          time: 62
+        },
+        {
+          coords: [33.909984, -84.346804],
+          neighborhood: 'Perimeter Center',
+          time: 62
+        },
+        {
+          coords: [33.904848, -84.348059],
+          neighborhood: 'Perimeter Center',
+          time: 62
+        },     
+        {
+          coords: [33.862050, -84.364940],
+          neighborhood: 'Buckhead',
+          time: 83
+        },
+        {
+          coords: [33.858130, -84.362537],
+          neighborhood: 'Buckhead',
+          time: 66
+        },
+        {
+          coords: [33.857916, -84.368802],
+          neighborhood: 'Buckhead',
+          time: 83
+        },
+        {
+          coords: [33.870448, -84.362343],
+          neighborhood: 'Buckhead',
+          time: 104
+        },
+        {
+          coords: [33.859920, -84.353388],
+          neighborhood: 'Buckhead',
+          time: 74
+        },     
+        {
+          coords: [33.846365, -84.309155],
+          neighborhood: 'Chamblee',
+          time: 85
+        },
+        {
+          coords: [33.855346, -84.309498],
+          neighborhood: 'Chamblee',
+          time: 74
+        },
+        {
+          coords: [33.858910, -84.297482],
+          neighborhood: 'Chamblee',
+          time: 107
+        },
+        {
+          coords: [33.869458, -84.295422],
+          neighborhood: 'Chamblee',
+          time: 74
+        },
+        {
+          coords: [33.877867, -84.305378],
+          neighborhood: 'Chamblee',
+          time: 85
+        },     
+        {
+          coords: [33.887273, -84.292332],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+        {
+          coords: [33.900097, -84.302117],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+        {
+          coords: [33.892403, -84.315506],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+        {
+          coords: [33.902662, -84.316880],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+                {
+          coords: [33.896962, -84.290444],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+                {
+          coords: [33.904941, -84.304520],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+                {
+          coords: [33.913917, -84.311558],
+          neighborhood: 'Chamblee',
+          time: 96
+        },
+                {
+          coords: [33.915341, -84.293534],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+                {
+          coords: [33.880290, -84.280659],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+        {
+          coords: [33.877701, -84.282819],
+          neighborhood: 'Chamblee',
+          time: 83
+        },
+        {
+          coords: [33.906354, -84.286808],
+          neighborhood: 'Doraville',
+          time: 83
+        },
+        {
+          coords: [33.894528, -84.279083],
+          neighborhood: 'Doraville',
+          time: 66
+        },     
+        {
+          coords: [33.894386, -84.267925],
+          neighborhood: 'Doraville',
+          time: 83
+        },
+        {
+          coords: [33.904217, -84.276508],
+          neighborhood: 'Doraville',
+          time: 66
+        },
         /*{
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },     
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },     
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },     
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },     
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },     
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },     
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
-          coords: [],
-          neighborhood: '',
-          time: 
-        },
-        {
           coords: [],
           neighborhood: '',
           time: 
